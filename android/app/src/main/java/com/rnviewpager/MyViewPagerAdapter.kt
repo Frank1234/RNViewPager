@@ -38,7 +38,7 @@ class MyViewPagerAdapter(val context: Context,
         (view as ReactRootView).unmountReactApplication()
     }
 
-    override fun getCount(): Int = 400
+    override fun getCount(): Int = 50
     override fun isViewFromObject(view: View, o: Any): Boolean = view === o
     override fun getPageTitle(position: Int): CharSequence? = null
 }
